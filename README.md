@@ -3,10 +3,18 @@ _
 #### utilzar con docker-compose
 _
 - Bajar el zip.
+- Situarse un nivel antes del directorio a crear
 - Descomprimir
+~~~
+unzip -q BasicWeb-master.zip -d **directorioACrear**
+~~~
+- Borrar el archivo zip (si gusta)
+~~~
+rm BasicWeb-master.zip (o nombre del zip)
+~~~
 - Modificar el archivo .env
 - Modificar el archivo host en el equipo
-- modificar solo el interior de la carpeta **web**
+- Modificar solo el interior de la carpeta **web**
 
 #### Comandos docker
 ~~~
