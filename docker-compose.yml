@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  apache.local:
+    # versión
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    volumes:
+      - ./web:/var/www/html/
+    ports:
+      - 80:80
+    links:
+      - php-fpm
+  
+  php-fpm:
+    build:
+      context: .
+      dockerfile: php-fpm/Dockerfile
+    volumes:
+      - ./web:/var/www/html/
