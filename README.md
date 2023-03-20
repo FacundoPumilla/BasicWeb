@@ -6,7 +6,7 @@ _
 - Situarse un nivel antes del directorio a crear
 - Descomprimir
 ~~~
-unzip -q BasicWeb-master.zip -d **directorioACrear**
+unzip -q BasicWeb-master.zip -d <directorioACrear>
 ~~~
 - Borrar el archivo zip (si gusta)
 ~~~
