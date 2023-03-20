@@ -1,6 +1,6 @@
 ## Web basica
 _
-#### utilzar con docker-compose
+#### Utilzar con docker-compose
 _
 - Bajar el zip.
 - Situarse un nivel antes del directorio a crear
@@ -11,6 +11,10 @@ unzip -q BasicWeb-master.zip -d <directorioACrear>
 - Borrar el archivo zip (si gusta)
 ~~~
 rm BasicWeb-master.zip (o nombre del zip)
+~~~
+- Cambiar el nombre al directorio
+~~~
+mv BasicWeb-master <directorioNombre>
 ~~~
 - Modificar el archivo .env
 - Modificar el archivo host en el equipo
